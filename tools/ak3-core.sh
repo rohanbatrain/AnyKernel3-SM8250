@@ -21,6 +21,23 @@ ui_print() {
   done;
 }
 
+
+# ASCII Banner
+print_banner() {
+  ui_print " "
+  ui_print " _   __                         _             _   "
+  ui_print "| | / /                        | |           | |  "
+  ui_print "| |/ /  __ _ _ __ _ __ ___  ___| |_ _ __ ___ | |_ "
+  ui_print "|    \ / _\` | '__| '_ \` _ \/ __| __| '__/ _ \| __|"
+  ui_print "| |\  \ (_| | |  | | | | | \__ \ |_| | | (_) | |_ "
+  ui_print "\_| \_/\__,_|_|  |_| |_| |_|___/\__|_|  \___/ \__|"
+  ui_print "                                                  "
+  ui_print "      🔱 Karmstrot Kernel (कर्मस्रोत) 🔱"
+  ui_print "      Made by @rohanbatrain"
+  ui_print " "
+}
+
+
 # abort ["<text>" [...]]
 abort() {
   ui_print " " "$@";
