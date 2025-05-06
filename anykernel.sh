@@ -4,20 +4,20 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=ExampleKernel by osm0sis @ xda-developers
+kernel.string= Karmstrot Kernel (कर्मस्रोत) by Rohan Batra
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=maguro
-device.name2=toro
-device.name3=toroplus
-device.name4=tuna
+device.name1=instantnoodlep
+device.name2=guacamole
+device.name3=kebab
 device.name5=
 supported.versions=
 supported.patchlevels=
 supported.vendorpatchlevels=
+
 '; } # end properties
 
 
