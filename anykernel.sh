@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string= Karmstrot Kernel (कर्मस्रोत) by Rohan Batra
+kernel.string= Karmstrot Kernel by Rohan Batra
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -22,7 +22,7 @@ supported.vendorpatchlevels=
 
 
 ### AnyKernel install
-print_banner
+print_banner()
 ## boot files attributes
 boot_attributes() {
 set_perm_recursive 0 0 755 644 $RAMDISK/*;
