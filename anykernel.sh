@@ -22,6 +22,7 @@ supported.vendorpatchlevels=
 
 
 ### AnyKernel install
+print_banner
 ## boot files attributes
 boot_attributes() {
 set_perm_recursive 0 0 755 644 $RAMDISK/*;
