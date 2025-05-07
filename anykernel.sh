@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string= Karmstrot Kernel by Rohan Batra
+kernel.string=Karmstrot_Kernel_by_Rohan_Batra
 do.devicecheck=1
 do.modules=0
 do.systemless=1
