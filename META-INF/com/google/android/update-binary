@@ -553,7 +553,7 @@ ui_print "|    \ / _\` | '__| '_ \` _ \/ __| __| '__/ _ \| __|"
 ui_print "| |\  \ (_| | |  | | | | | \__ \ |_| | | (_) | |_ "
 ui_print "\_| \_/\__,_|_|  |_| |_| |_|___/\__|_|  \___/ \__|"
 ui_print "                                                  "
-ui_print "      🔱 Karmstrot Kernel (कर्मस्रोत) 🔱"
+ui_print "      Karmstrot Kernel"
 ui_print "      Made by @rohanbatrain"
 ui_print " "
 grep -oE 'AK_BASE.*' META-INF/com/google/android/updater-script >&2;
